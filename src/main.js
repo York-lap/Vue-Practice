@@ -1,5 +1,12 @@
+/*
+ * @Author: yk
+ * @Date: 2024-07-24 15:30:27
+ * @Description: 
+ */
 import { createApp } from 'vue'
-import './style.css'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+
+const app = createApp(App)
+app.mount('#app')
+
