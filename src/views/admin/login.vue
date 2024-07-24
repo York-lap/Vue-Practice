@@ -1,6 +1,6 @@
 <!--
  * @Author: yk
- * @Date: 2024-07-24 15:30:27
+ * @Date: 2024-07-24 16:21:19
  * @Description: 
 -->
 <script setup>
@@ -8,7 +8,7 @@
 </script>
 
 <template>
-  <router-view/>
+    ==Login==
 </template>
 
 <style scoped>
