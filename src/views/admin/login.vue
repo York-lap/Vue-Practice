@@ -1,14 +1,13 @@
-<!--
- * @Author: yk
- * @Date: 2024-07-24 16:21:19
- * @Description: 
--->
 <script setup>
 
 </script>
 
 <template>
-    ==Login==
+    <h3>Login</h3>
+
+    <el-icon><User/></el-icon>
+    <el-button type="primary">Login</el-button>
+    
 </template>
 
 <style scoped>
