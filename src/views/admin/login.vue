@@ -1,4 +1,9 @@
 <script setup>
+    import { useAdminStore } from '@/stores/admin'
+
+    const adminstore = useAdminStore()
+    adminstore.save("york-lap", "1234", "2024")
+    console.log(adminstore.data)
 
 </script>
 
