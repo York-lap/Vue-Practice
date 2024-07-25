@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login .el-form{
+    width: 360px;
+    height: 230px;
+    background: #fff;
+    box-shadow: 0 0 15px #88c7f8;
+}
+
+.login .el-form .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1e9eff;
+}
+
+.login .el-form .el-form-item{
+    margin-left: 45px;
+    width: 280px;
+}
+
+.login .el-form .el-button{
+    width: 280px;
+}
