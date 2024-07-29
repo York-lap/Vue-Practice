@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15px;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+ul,
+li{
+    list-style-type: none;
+}
+
+.home .el-header{
+    height: 60px;
+    background: #2980B9;
+    color: #FFFFFF;
+}
+
+.home .el-main{
+    height: calc(100vh - 60px); 
+    overflow-y: auto;
+}
+
+.home .el-aside{
+    background: #2C3E50;
+    color: #ECF0F1;
+
+}
