@@ -19,10 +19,77 @@ li{
     list-style-type: none;
 }
 
+.home{
+    display: flex;
+}
+
 .home .el-header{
+    display: flex;
     height: 60px;
     background: #2980B9;
     color: #FFFFFF;
+    padding: 0;
+}
+
+.home .el-header  .title{
+    display: flex;
+    width: 200px;
+}
+.home .el-header  .title .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+}
+.home .el-header  .title .logo i{
+    color: lightblue;
+    font-size: 30px;
+}
+
+.home .el-header  .title .text{
+    display: flex;
+    align-items: center;
+
+}
+
+.home .el-header .title .text a{
+    color: lightblue;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home .el-header .info{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1; /* 占满剩余空间 */
+}
+
+.home .el-header  .info .admin{
+    display: flex;
+    font-size: 15px;
+}
+.home .el-header  .info .admin .name{
+    padding-right: 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+
+}
+
+.home .el-header  .info .admin .name i{
+    color: #b79696;
+    font-size: 14px;
+}
+.home .el-header  .info .admin .exit{
+    width: 90px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+.home .el-header .info .admin .exit:hover {  
+    color: #1ABC9C; 
 }
 
 .home .el-main{
